@@ -8,7 +8,7 @@ I already have a related repo on service workers: https://github.com/hchiam/lear
 
 ## IndexedDB in the browser
 
-Tip: use the [idb](https://github.com/jakearchibald/idb) library for a friendlier API.
+Tip: use the [idb](https://github.com/jakearchibald/idb) library for a friendlier API. `npm install idb`
 
 **Database**(s) { object stores { keys and values and indexes. Indexes are the same data but ordered by particular properties.
 
