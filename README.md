@@ -14,4 +14,9 @@ Tip: use the [idb](https://github.com/jakearchibald/idb) library for a friendlie
 
 **Transaction** { read or write actions. A transaction contains steps. If one step fails, DB state is as if none of the steps happened ("atomic" operation - see the "Clean Code" book by Robert Martin).
 
+1. Look here first: https://github.com/jakearchibald/idb
+2. Then find things like expected parameters here: https://developer.mozilla.org/en-US/docs/Web/API/IndexedDB_API (but the `idb` library returns a promise instead of a request object).
+
 TODO: learn more from here: https://classroom.udacity.com/courses/ud899/lessons/6381510082/concepts/63774101620923
+
+(also need to see how to set up to get the demo working in the browser)
