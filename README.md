@@ -17,6 +17,6 @@ Tip: use the [idb](https://github.com/jakearchibald/idb) library for a friendlie
 1. Look here first: https://github.com/jakearchibald/idb
 2. Then find things like expected parameters here: https://developer.mozilla.org/en-US/docs/Web/API/IndexedDB_API (but the `idb` library returns a promise instead of a request object).
 
-TODO: learn more from here: https://classroom.udacity.com/courses/ud899/lessons/6381510082/concepts/63774101620923
+TODO: learn more from here: https://classroom.udacity.com/courses/ud899/lessons/6381510082/concepts/63774101620923 (RETRY THE TASKS)
 
 (also need to see how to set up to get the demo working in the browser)
