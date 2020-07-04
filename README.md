@@ -2,4 +2,6 @@
 
 Just one of the things I'm learning. https://github.com/hchiam/learning
 
+**Service worker** and **IndexedDB**!
+
 I already have a related repo on service workers: https://github.com/hchiam/learning-service-workers
