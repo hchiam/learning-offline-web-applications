@@ -25,4 +25,8 @@ Tip: use the [idb](https://github.com/jakearchibald/idb) library for a friendlie
 
 ```bash
 git clone https://github.com/jakearchibald/wittr
+cd wittr
+npm install
+npm run serve
+# open http://localhost:8888
 ```
