@@ -57,3 +57,9 @@ or
 ```bash
 git reset --hard; git checkout task-register-sw
 ```
+
+or
+
+```bash
+git reset --hard; git checkout task-custom-response
+```
