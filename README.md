@@ -83,3 +83,15 @@ or
 ```bash
 git reset --hard; git checkout task-custom-response
 ```
+
+or
+
+```bash
+git reset --hard; git checkout task-install
+```
+
+or
+
+```bash
+git reset --hard; git checkout task-cache-response
+```
