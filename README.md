@@ -23,6 +23,20 @@ navigator.serviceWorker.register("/sw.js", {
 });
 ```
 
+You can respond with an HTML response:
+
+```js
+self.addEventListener("fetch", function (event) {
+  event.respondWith(
+    new Response('<div class="a-winner-is-me">Hello!</div>', {
+      headers: {
+        "content-type": "text/html",
+      },
+    })
+  );
+});
+```
+
 ## IndexedDB in the browser
 
 You can find IndexedDB in browser dev tools.
