@@ -42,8 +42,18 @@ Tip: use the [idb](https://github.com/jakearchibald/idb) library for a friendlie
 git clone https://github.com/jakearchibald/wittr
 cd wittr
 npm install
-git reset --hard
-git checkout task-register-sw
 npm run serve
 # open http://localhost:8888
+```
+
+then
+
+```bash
+git reset --hard; git checkout task-register-sw
+```
+
+or
+
+```bash
+git reset --hard; git checkout task-register-sw
 ```
