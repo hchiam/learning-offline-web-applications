@@ -2,10 +2,12 @@
 
 // https://developer.mozilla.org/en-US/docs/Web/API/IndexedDB_API
 
+// import { openDB } from "https://unpkg.com/idb?module";
 import idb from "idb";
 
 var dbVersionNumber = 1;
 
+// var dbPromise = openDB("test-db", dbVersionNumber, function (upgradeDB) {
 var dbPromise = idb.openDB("test-db", dbVersionNumber, function (upgradeDB) {
   var keyValStore = upgradeDB.createObjectStore("keyval");
   var key = "key";
