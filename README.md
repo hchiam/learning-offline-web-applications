@@ -6,7 +6,22 @@ https://www.udacity.com/course/offline-web-applications--ud899
 
 **Service worker** and **IndexedDB**!
 
+## Service workers
+
 I already have a related repo on service workers: https://github.com/hchiam/learning-service-workers
+
+To update a service worker, you need to close the page controlled by the service worker, or navigate to a page that it doesn't control.
+
+Service workers can have scope explicitly set (but defaults to the containing folder path the SW script sits in):
+
+```js
+navigator.serviceWorker.register("/sw.js", {
+  scope: "/my-app/",
+  // will control a page at /my-app/ or /my-app/hello/world,
+  // but not / nor /another-app,
+  // but also surprisingly neither /my-app because of the lack of trailing slash
+});
+```
 
 ## IndexedDB in the browser
 
@@ -27,6 +42,8 @@ Tip: use the [idb](https://github.com/jakearchibald/idb) library for a friendlie
 git clone https://github.com/jakearchibald/wittr
 cd wittr
 npm install
+git reset --hard
+git checkout task-register-sw
 npm run serve
 # open http://localhost:8888
 ```
