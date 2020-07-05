@@ -37,6 +37,12 @@ self.addEventListener("fetch", function (event) {
 });
 ```
 
+### `cache`
+
+Set: `cache.put(request, response);` or `cache.addAll(['/foo','/bar']);`.
+
+Get: `cache.match(request);` or `caches.match(request);`.
+
 ## IndexedDB in the browser
 
 You can find IndexedDB in browser dev tools.
