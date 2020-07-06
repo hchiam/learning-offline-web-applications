@@ -64,6 +64,7 @@ cd wittr
 npm install
 npm run serve
 # open http://localhost:8888
+# open http://localhost:8889
 ```
 
 then any of the following:
