@@ -70,7 +70,6 @@ then any of the following:
 
 ```bash
 git reset --hard; git checkout task-register-sw
-git reset --hard; git checkout task-register-sw
 git reset --hard; git checkout task-custom-response
 git reset --hard; git checkout task-install
 git reset --hard; git checkout task-cache-response
