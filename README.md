@@ -66,32 +66,12 @@ npm run serve
 # open http://localhost:8888
 ```
 
-then
+then any of the following:
 
 ```bash
 git reset --hard; git checkout task-register-sw
-```
-
-or
-
-```bash
 git reset --hard; git checkout task-register-sw
-```
-
-or
-
-```bash
 git reset --hard; git checkout task-custom-response
-```
-
-or
-
-```bash
 git reset --hard; git checkout task-install
-```
-
-or
-
-```bash
 git reset --hard; git checkout task-cache-response
 ```
